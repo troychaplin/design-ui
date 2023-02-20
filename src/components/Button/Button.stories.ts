@@ -6,12 +6,12 @@ import { Button } from "./Button";
 const meta = {
 	title: "Components/Button",
 	component: Button,
+	tags: ["autodocs"],
 	parameters: {
 		controls: {
 			sort: "requiredFirst",
 		},
 	},
-	tags: ["autodocs"],
 	argTypes: {
 		backgroundColor: { control: "color" },
 	},

@@ -19,11 +19,13 @@ const meta = {
 		},
 	},
 } satisfies Meta<typeof Card>;
+
 export default meta;
 type Story = StoryObj<typeof meta>;
+
 export const Primary: Story = {
 	args: {
-		title: "Card Title",
+		title: "Add a Card Title",
 		description: "This is a card",
 	},
 };
