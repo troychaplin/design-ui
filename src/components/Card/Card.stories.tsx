@@ -5,6 +5,11 @@ const meta = {
 	title: "Components/Card",
 	component: Card,
 	tags: ["autodocs"],
+	parameters: {
+		controls: {
+			sort: "requiredFirst",
+		},
+	},
 	argTypes: {
 		title: {
 			control: { type: "text" },
@@ -14,11 +19,13 @@ const meta = {
 		},
 	},
 } satisfies Meta<typeof Card>;
+
 export default meta;
 type Story = StoryObj<typeof meta>;
+
 export const Primary: Story = {
 	args: {
-		title: "Card Title",
+		title: "Add a Card Title",
 		description: "This is a card",
 	},
 };
