@@ -23,6 +23,6 @@
 		},
 		"typeRoots": ["node_modules/@types", "src/index.d.ts"]
 	},
-	"include": ["src", "comp-bck/Header", "comp-bck/Page"],
+	"include": ["src"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
