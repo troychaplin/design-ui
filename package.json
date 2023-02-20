@@ -1,7 +1,7 @@
 {
 	"name": "@troychaplin79/design-ui",
 	"private": false,
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"type": "module",
 	"main": "dist/design-ui.cjs.js",
 	"module": "dist/design-ui.es.js",
@@ -22,6 +22,7 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.20.12",
+		"@storybook/addon-a11y": "^7.0.0-beta.51",
 		"@storybook/addon-actions": "^7.0.0-beta.51",
 		"@storybook/addon-docs": "^7.0.0-beta.51",
 		"@storybook/addon-essentials": "^7.0.0-beta.51",

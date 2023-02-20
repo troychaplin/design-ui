@@ -1400,6 +1400,25 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
+"@storybook/addon-a11y@^7.0.0-beta.51":
+  version "7.0.0-beta.51"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.0.0-beta.51.tgz#500ce10523d245de9fd21a104eeaaa1352cac375"
+  integrity sha512-PqnQxs4CNjkmecSS5Vr5g0wr0f22zVCIJwKJbRhGFPFt86VKgbTIGd/vtPVDo3lpMe7xU55A70qmKEcaMUXZlw==
+  dependencies:
+    "@storybook/addon-highlight" "7.0.0-beta.51"
+    "@storybook/channels" "7.0.0-beta.51"
+    "@storybook/client-logger" "7.0.0-beta.51"
+    "@storybook/components" "7.0.0-beta.51"
+    "@storybook/core-events" "7.0.0-beta.51"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.0-beta.51"
+    "@storybook/preview-api" "7.0.0-beta.51"
+    "@storybook/theming" "7.0.0-beta.51"
+    "@storybook/types" "7.0.0-beta.51"
+    axe-core "^4.2.0"
+    lodash "^4.17.21"
+    react-resize-detector "^7.1.2"
+
 "@storybook/addon-actions@7.0.0-beta.51", "@storybook/addon-actions@^7.0.0-beta.51":
   version "7.0.0-beta.51"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-7.0.0-beta.51.tgz#6c43f4e9e03b7db438572d5c3137d01984f7fdbd"
@@ -2685,6 +2704,11 @@ available-typed-arrays@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
+
+axe-core@^4.2.0:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.6.3.tgz#fc0db6fdb65cc7a80ccf85286d91d64ababa3ece"
+  integrity sha512-/BQzOX780JhsxDnPpH4ZiyrJAzcd8AfzFPkv+89veFSr1rcMjuq2JDCwypKaPeB6ljHp9KjXhPpjgCvQlWYuqg==
 
 babel-core@^7.0.0-bridge.0:
   version "7.0.0-bridge.0"
@@ -5841,6 +5865,13 @@ react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
+
+react-resize-detector@^7.1.2:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/react-resize-detector/-/react-resize-detector-7.1.2.tgz#8ef975dd8c3d56f9a5160ac382ef7136dcd2d86c"
+  integrity sha512-zXnPJ2m8+6oq9Nn8zsep/orts9vQv3elrpA+R8XTcW7DVVUJ9vwDwMXaBtykAYjMnkCIaOoK9vObyR7ZgFNlOw==
+  dependencies:
+    lodash "^4.17.21"
 
 react@^18.2.0:
   version "18.2.0"
