@@ -513,15 +513,13 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.wrapper h1 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(216 180 254 / var(--tw-bg-opacity));
+/* .wrapper h1 {
+	@apply bg-purple-300;
 }
 
 .wrapper + .wrapper {
-  --tw-bg-opacity: 1;
-  background-color: rgb(216 180 254 / var(--tw-bg-opacity));
-}
+	@apply bg-purple-300;
+} */
 
 .mb-2 {
   margin-bottom: 0.5rem;
