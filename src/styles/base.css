@@ -1,0 +1,7 @@
+.wrapper h1 {
+	@apply bg-purple-300;
+}
+
+.wrapper + .wrapper {
+	@apply bg-purple-300;
+}
