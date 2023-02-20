@@ -1,4 +1,4 @@
-type CardProps = {
+export interface CardProps {
 	/**
 	 * What is the title for this card?
 	 */
@@ -7,7 +7,7 @@ type CardProps = {
 	 * Add an excerpt for the card
 	 */
 	description: string;
-};
+}
 
 export const Card = ({ title, description }: CardProps) => {
 	return (
