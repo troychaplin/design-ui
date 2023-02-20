@@ -5,6 +5,7 @@ export const parameters = {
 		default: "light",
 	},
 	controls: {
+		expanded: true,
 		matchers: {
 			color: /(background|color)$/i,
 			date: /Date$/,

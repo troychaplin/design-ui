@@ -5,6 +5,11 @@ const meta = {
 	title: "Components/Card",
 	component: Card,
 	tags: ["autodocs"],
+	parameters: {
+		controls: {
+			sort: "requiredFirst",
+		},
+	},
 	argTypes: {
 		title: {
 			control: { type: "text" },
