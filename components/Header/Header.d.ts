@@ -1,7 +1,7 @@
 type User = {
     name: string;
 };
-interface HeaderProps {
+export interface HeaderProps {
     /**
      * User data
      */

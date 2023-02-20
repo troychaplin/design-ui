@@ -1,10 +1,7 @@
 import type { StoryObj } from "@storybook/react";
 declare const meta: {
     title: string;
-    component: ({ title, description }: {
-        title: string;
-        description: string;
-    }) => JSX.Element;
+    component: ({ title, description }: import("./Card").CardProps) => JSX.Element;
     tags: string[];
     parameters: {
         controls: {

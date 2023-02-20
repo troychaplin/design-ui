@@ -1,4 +1,4 @@
-interface ButtonProps {
+export interface ButtonProps {
     /**
      * Is this the principal call to action on the page?
      */
@@ -24,5 +24,4 @@ interface ButtonProps {
  * Primary UI component for user interaction
  */
 export declare const Button: ({ primary, size, backgroundColor, label, ...props }: ButtonProps) => JSX.Element;
-export {};
 //# sourceMappingURL=Button.d.ts.map
