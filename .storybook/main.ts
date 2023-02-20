@@ -3,7 +3,6 @@ const config: StorybookConfig = {
 	stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
 	addons: [
 		"@storybook/addon-actions",
-		"@storybook/addon-essentials",
 		"@storybook/addon-interactions",
 		"@storybook/addon-links",
 		{
@@ -12,6 +11,13 @@ const config: StorybookConfig = {
 				configureJSX: true,
 				babelOptions: {},
 				transcludeMarkdown: true,
+			},
+		},
+		{
+			name: "@storybook/addon-essentials",
+			options: {
+				outline: false,
+				toolbars: false,
 			},
 		},
 	],
