@@ -6,6 +6,11 @@ declare const meta: {
         description: string;
     }) => JSX.Element;
     tags: string[];
+    parameters: {
+        controls: {
+            sort: string;
+        };
+    };
     argTypes: {
         title: {
             control: {
