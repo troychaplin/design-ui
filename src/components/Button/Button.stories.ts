@@ -7,6 +7,11 @@ const meta = {
 	title: "Components/Button",
 	component: Button,
 	tags: ["autodocs"],
+	parameters: {
+		controls: {
+			sort: "requiredFirst",
+		},
+	},
 	argTypes: {
 		backgroundColor: { control: "color" },
 	},

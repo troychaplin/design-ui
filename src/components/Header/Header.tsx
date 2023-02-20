@@ -8,9 +8,21 @@ type User = {
 };
 
 interface HeaderProps {
+	/**
+	 * User data
+	 */
 	user?: User;
+	/**
+	 * Login handler
+	 */
 	onLogin: () => void;
+	/**
+	 * Logout handler
+	 */
 	onLogout: () => void;
+	/**
+	 * Create account handler
+	 */
 	onCreateAccount: () => void;
 }
 
