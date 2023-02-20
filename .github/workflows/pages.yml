@@ -1,0 +1,26 @@
+name: Build GitHub Pages
+on:
+    push:
+        tags:
+            - "*"
+jobs:
+    build-and-deploy:
+        name: Deploy Storybook to GH Pages
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
+            - name: 🛎️ checkout
+              uses: actions/checkout@v3
+
+            - name: 📦 install
+              run: yarn install
+
+            - name: 🔧 build docs
+              run: yarn build-storybook
+
+            - name: 🚀 deploy
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                  branch: docs
+                  folder: storybook-static
