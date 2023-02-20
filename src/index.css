@@ -525,10 +525,6 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.contents {
-  display: contents;
-}
-
 .max-w-3xl {
   max-width: 48rem;
 }
