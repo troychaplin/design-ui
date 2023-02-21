@@ -1,0 +1,7 @@
+import{j as e,a as c}from"./jsx-runtime-670450c2.js";import"./index-f1f749bf.js";import"./_commonjsHelpers-042e6b4d.js";const r={card:"max-w-md overflow-hidden bg-white rounded-lg shadow-lg",spacing:"px-6 py-4",header:"mb-2 text-xl font-bold",excerpt:"text-base text-gray-700"},a=({title:s,description:n})=>e("div",{className:r.card,children:c("div",{className:r.spacing,children:[e("img",{src:"assets/plugin.svg",alt:"plugin"}),e("h2",{className:r.header,children:s}),e("p",{className:r.excerpt,children:n})]})});try{a.displayName="Card",a.__docgenInfo={description:"",displayName:"Card",props:{title:{defaultValue:null,description:"What is the title for this card?",name:"title",required:!0,type:{name:"string"}},description:{defaultValue:null,description:"Add an excerpt for the card",name:"description",required:!0,type:{name:"string"}}}}}catch{}const u={title:"Components/Card",component:a,tags:["autodocs"],parameters:{controls:{sort:"requiredFirst"}},argTypes:{title:{control:{type:"text"}},description:{control:{type:"text"}}}},t={args:{title:"Add a Card Title",description:"This is a card"}};var i,d,o;t.parameters={...t.parameters,docs:{...(i=t.parameters)==null?void 0:i.docs,source:{originalSource:`{
+  args: {
+    title: 'Add a Card Title',
+    description: 'This is a card'
+  }
+}`,...(o=(d=t.parameters)==null?void 0:d.docs)==null?void 0:o.source}}};const g=["Primary"];export{t as Primary,g as __namedExportsOrder,u as default};
+//# sourceMappingURL=Card.stories-c4f1d121.js.map
