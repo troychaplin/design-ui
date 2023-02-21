@@ -13,13 +13,12 @@
     "scripts": {
         "build": "tsc && yarn format && yarn lint && vite build && yarn build:css",
         "build:css": "tailwindcss --postcss -m -i ./src/tailwind.css -o ./dist/index.css",
-        "preview": "vite preview",
         "storybook": "concurrently \"yarn storybook:css\" \"storybook dev -p 6006\"",
         "storybook:css": "tailwindcss --postcss -w -i ./src/tailwind.css -o ./src/index.css",
         "build-storybook": "concurrently \"yarn build-storybook:css\" \"storybook build\"",
         "build-storybook:css": "tailwindcss --postcss -m -i ./src/tailwind.css -o ./src/index.css",
-        "format": "prettier -w src",
         "lint": "eslint . --ext .ts,.tsx",
+        "format": "prettier -w src",
         "clean": "rm -rf node_modules ; rm yarn.lock ; yarn install"
     },
     "devDependencies": {
