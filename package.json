@@ -29,6 +29,7 @@
         "build-storybook:css": "tailwindcss --postcss -m -i ./src/tailwind.css -o ./src/index.css",
         "lint": "eslint . --ext .ts,.tsx",
         "format": "prettier -w src",
+        "size": "size-limit",
         "clean": "rm -rf node_modules ; rm yarn.lock ; yarn install"
     },
     "devDependencies": {
