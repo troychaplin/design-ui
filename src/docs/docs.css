@@ -1,0 +1,11 @@
+.link-list {
+    @apply gap-5 md:grid md:grid-cols-2;
+}
+
+.link-item {
+    @apply flex gap-5 px-5 py-8 rounded-lg shadow-lg;
+}
+
+.link-item p {
+    @apply my-auto;
+}
