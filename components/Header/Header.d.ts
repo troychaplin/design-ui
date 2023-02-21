@@ -19,6 +19,6 @@ export interface HeaderProps {
      */
     onCreateAccount: () => void;
 }
-export declare const Header: ({ user, onLogin, onLogout, onCreateAccount, }: HeaderProps) => JSX.Element;
+export declare const Header: ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => JSX.Element;
 export {};
 //# sourceMappingURL=Header.d.ts.map

@@ -1,7 +1,7 @@
-import type { StoryObj } from "@storybook/react";
+import type { StoryObj } from '@storybook/react';
 declare const meta: {
     title: string;
-    component: ({ user, onLogin, onLogout, onCreateAccount, }: import("./Header").HeaderProps) => JSX.Element;
+    component: ({ user, onLogin, onLogout, onCreateAccount }: import("./Header").HeaderProps) => JSX.Element;
     tags: string[];
     parameters: {
         controls: {

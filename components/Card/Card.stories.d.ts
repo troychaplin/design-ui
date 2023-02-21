@@ -1,4 +1,4 @@
-import type { StoryObj } from "@storybook/react";
+import type { StoryObj } from '@storybook/react';
 declare const meta: {
     title: string;
     component: ({ title, description }: import("./Card").CardProps) => JSX.Element;
