@@ -1,7 +1,6 @@
 import React from "react";
-
 import { Button } from "../Button/Button";
-import "./header.css";
+import styles from "./Header.styles";
 
 type User = {
 	name: string;
@@ -33,9 +32,10 @@ export const Header = ({
 	onCreateAccount,
 }: HeaderProps) => (
 	<header>
-		<div className="wrapper">
+		<div className={styles.wrapper}>
 			<div>
 				<svg
+					className={styles.svg}
 					width="32"
 					height="32"
 					viewBox="0 0 32 32"
@@ -56,12 +56,12 @@ export const Header = ({
 						/>
 					</g>
 				</svg>
-				<h1>Acme</h1>
+				<h1 className={styles.header}>Acme</h1>
 			</div>
 			<div>
 				{user ? (
 					<>
-						<span className="welcome">
+						<span className={styles.paragraph}>
 							Welcome, <b>{user.name}</b>!
 						</span>
 						<Button

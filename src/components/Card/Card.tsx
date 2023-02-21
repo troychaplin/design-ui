@@ -1,4 +1,4 @@
-// import CodeBrackets from "/assets/code-brackets.svg";
+import styles from "./Card.styles";
 
 export interface CardProps {
 	/**
@@ -13,11 +13,10 @@ export interface CardProps {
 
 export const Card = ({ title, description }: CardProps) => {
 	return (
-		<div className="max-w-3xl overflow-hidden bg-white rounded-lg shadow-lg">
-			<div className="px-6 py-4">
-				<img src="/assets/code-brackets.svg" alt="my image" />
-				<h2 className="mb-2 text-xl font-bold">{title}</h2>
-				<p className="text-base text-gray-700">{description}</p>
+		<div className={styles.card}>
+			<div className={styles.spacing}>
+				<h2 className={styles.header}>{title}</h2>
+				<p className={styles.excerpt}>{description}</p>
 			</div>
 		</div>
 	);
