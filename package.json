@@ -12,11 +12,11 @@
     ],
     "size-limit": [
         {
-            "path": "dist/rds-tailwindui.es.js",
+            "path": "dist/design-ui.es.js",
             "limit": "400 kB"
         },
         {
-            "path": "dist/rds-tailwindui.umd.js",
+            "path": "dist/design-ui.umd.js",
             "limit": "400 kB"
         }
     ],
