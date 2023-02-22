@@ -15,8 +15,10 @@
         "build:css": "tailwindcss --postcss -m -i ./src/tailwind.css -o ./dist/index.css",
         "storybook": "concurrently \"yarn storybook:css\" \"storybook dev -p 6006\"",
         "storybook:css": "tailwindcss --postcss -w -i ./src/tailwind.css -o ./src/index.css",
+        "storybook:start": "start-storybook -p 6006 --ci --quiet --no-open",
         "build-storybook": "concurrently \"yarn build-storybook:css\" \"storybook build\"",
         "build-storybook:css": "tailwindcss --postcss -m -i ./src/tailwind.css -o ./src/index.css",
+        "test": "concurrently \"yarn storybook\" \"yarn run cypress open\"",
         "lint": "eslint . --ext .ts,.tsx",
         "format": "prettier -w src",
         "clean": "rm -rf node_modules ; rm yarn.lock ; yarn install"
@@ -41,6 +43,7 @@
         "autoprefixer": "^10.4.13",
         "babel-loader": "^9.1.2",
         "concurrently": "^7.6.0",
+        "cypress": "^12.6.0",
         "eslint": "^8.34.0",
         "eslint-config-prettier": "^8.6.0",
         "eslint-plugin-import": "^2.27.5",
