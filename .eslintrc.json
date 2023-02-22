@@ -27,7 +27,7 @@
         "node": true
     },
     "rules": {
-        "@typescript-eslint/no-namespace": "warning"
+        "@typescript-eslint/no-namespace": "warn"
     },
     "ignorePatterns": ["dist/*"]
 }
